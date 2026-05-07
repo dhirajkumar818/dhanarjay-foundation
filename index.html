@@ -3,189 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhanarjay Welfare Foundation | Section 8 NGO | Nawada, Bihar</title>
-    <meta name="description" content="Dhanarjay Welfare Foundation - 80G & 12AA registered NGO in Bihar working for healthcare, women empowerment & sustainable agriculture.">
+    <title>Dhanarjay Welfare Foundation | Empowering Rural Bihar</title>
+    <meta name="description" content="80G & 12AA registered Section 8 NGO in Nawada, Bihar. Healthcare, Women Empowerment, Agriculture & Rehabilitation.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        .hero-bg {background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);}
-        .stat-card {transition: all 0.3s ease;}
-        .stat-card:hover {transform: translateY(-5px) scale(1.02);}
-        .btn-hover {transition: all 0.3s ease;}
-        .btn-hover:hover {transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.2);}
-        @keyframes pulse {0%, 100% {transform: scale(1);} 50% {transform: scale(1.05);}}
-        .pulse-animate {animation: pulse 2s infinite;}
+        body {font-family: 'Poppins', sans-serif;}
+        .hero-bg {background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #1e40af 100%);}
+        .gold-text {color: #D4AF37;}
+        .gold-bg {background: linear-gradient(135deg, #D4AF37 0%, #F5C542 100%);}
+        .card-hover {transition: all 0.4s ease;}
+        .card-hover:hover {transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.15);}
+        .btn-premium {transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(212,175,55,0.3);}
+        .btn-premium:hover {transform: translateY(-3px); box-shadow: 0 8px 25px rgba(212,175,55,0.5);}
+        .nav-link {position: relative;}
+        .nav-link::after {content: ''; position: absolute; width: 0; height: 2px; bottom: -5px; left: 0; background: #D4AF37; transition: width 0.3s;}
+        .nav-link:hover::after {width: 100%;}
     </style>
 </head>
-<body class="font-sans antialiased text-gray-800">
-    
+<body class="antialiased text-gray-800">
+
     <!-- Top Bar -->
-    <div class="bg-blue-900 text-white text-sm py-2 px-4" data-aos="fade-down">
-        <div class="max-w-6xl mx-auto flex justify-between items-center">
-            <div><i class="fas fa-phone mr-2"></i>+91 7479615382 | <i class="fas fa-envelope ml-4 mr-2"></i>dhanarjayfoundation@gmail.com</div>
-            <div><span class="bg-green-600 px-2 py-1 rounded text-xs pulse-animate">80G & 12AA Certified</span></div>
+    <div class="bg-slate-900 text-white text-sm py-2 px-4" data-aos="fade-down">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div><i class="fas fa-phone mr-2 gold-text"></i>+91 7479615382 | <i class="fas fa-envelope ml-4 mr-2 gold-text"></i>dhanarjayfoundation@gmail.com</div>
+            <div><span class="gold-bg text-slate-900 px-3 py-1 rounded-full text-xs font-semibold">80G & 12AA Certified | Section 8 NGO</span></div>
         </div>
     </div>
 
     <!-- Header -->
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center" data-aos="fade-right">
-                <div class="bg-blue-800 text-white p-2 rounded-lg mr-3">
+                <div class="gold-bg text-slate-900 p-3 rounded-xl mr-3 shadow-lg">
                     <i class="fas fa-hands-helping text-2xl"></i>
                 </div>
                 <div>
-                    <h1 class="text-xl font-bold text-blue-900">DHANARJAY WELFARE FOUNDATION</h1>
-                    <p class="text-xs text-gray-600">CIN: U88900BR2025NPL074863 | Section 8 Company</p>
+                    <h1 class="text-2xl font-bold text-slate-900">DHANARJAY WELFARE FOUNDATION</h1>
+                    <p class="text-xs text-gray-600">CIN: U88900BR2025NPL074863 | Transforming Lives Since 2025</p>
                 </div>
             </div>
-            <nav class="hidden md:flex space-x-6 font-medium" data-aos="fade-left">
-                <a href="#about" class="hover:text-blue-700">About</a>
-                <a href="#work" class="hover:text-blue-700">Our Work</a>
-                <a href="#impact" class="hover:text-blue-700">Impact</a>
-                <a href="#contact" class="hover:text-blue-700">Contact</a>
-                <a href="https://razorpay.me/@dhanarjay" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg btn-hover">Donate Now</a>
+            <nav class="hidden lg:flex space-x-8 font-medium" data-aos="fade-left">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#work" class="nav-link">Programs</a>
+                <a href="#impact" class="nav-link">Impact</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="https://razorpay.me/@dhanarjay" class="gold-bg text-slate-900 px-5 py-2 rounded-lg font-semibold btn-premium">Donate Now</a>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-bg text-white py-16 px-4">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+    <section id="home" class="hero-bg text-white py-20 px-4">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right" data-aos-duration="1000">
-                <h2 class="text-4xl font-bold mb-4 leading-tight">Building Stronger, Healthier & Self-Reliant Communities in Rural Bihar</h2>
-                <p class="text-lg mb-6 text-blue-100">Rehabilitation | Rural Healthcare | Women Empowerment | Sustainable Agriculture</p>
+                <span class="gold-text font-semibold text-lg">Serving Nawada, Bihar</span>
+                <h2 class="text-5xl font-bold mb-6 leading-tight mt-2">Empowering Rural Communities Through <span class="gold-text">Healthcare & Dignity</span></h2>
+                <p class="text-xl mb-8 text-blue-100">Rehabilitation Center | Medical Camps | Women Skill Training | Sustainable Agriculture | Community Education</p>
                 <div class="flex flex-wrap gap-4">
-                    <a href="https://razorpay.me/@dhanarjay" class="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg font-bold text-lg btn-hover"><i class="fas fa-heart mr-2"></i>Donate & Save Tax</a>
-                    <a href="#impact" class="border-2 border-white hover:bg-white hover:text-blue-900 px-6 py-3 rounded-lg font-bold text-lg btn-hover">See Our Impact</a>
+                    <a href="https://razorpay.me/@dhanarjay" class="gold-bg text-slate-900 px-8 py-4 rounded-lg font-bold text-lg btn-premium"><i class="fas fa-heart mr-2"></i>Donate & Get 50% Tax Exemption</a>
+                    <a href="#impact" class="border-2 border-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-lg font-bold text-lg transition-all">View Our Impact</a>
                 </div>
-                <p class="text-sm mt-4 text-blue-200">All donations are eligible for 50% tax exemption under Section 80G</p>
+                <div class="flex items-center gap-6 mt-8">
+                    <div class="flex -space-x-3">
+                        <img src="https://i.pravatar.cc/40?img=1" class="w-10 h-10 rounded-full border-2 border-white">
+                        <img src="https://i.pravatar.cc/40?img=2" class="w-10 h-10 rounded-full border-2 border-white">
+                        <img src="https://i.pravatar.cc/40?img=3" class="w-10 h-10 rounded-full border-2 border-white">
+                    </div>
+                    <p class="text-sm text-blue-200">Joined by 200+ donors this month</p>
+                </div>
             </div>
-            <div class="hidden md:block" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=500" alt="NGO Work" class="rounded-lg shadow-2xl">
+            <div class="hidden lg:block" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600" alt="NGO Work" class="rounded-2xl shadow-2xl">
             </div>
         </div>
     </section>
 
-    <!-- Stats Bar with Counter Animation -->
-    <section class="bg-white py-8 shadow-sm">
-        <div class="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-            <div class="stat-card p-4" data-aos="zoom-in" data-aos-delay="100">
-                <div class="text-3xl font-bold text-blue-800 counter" data-target="10">0+</div>
-                <div class="text-gray-600">Patients Rehabilitated</div>
+    <!-- Stats Bar -->
+    <section class="bg-white py-12 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="text-4xl font-bold text-slate-900 counter" data-target="10">0+</div>
+                <div class="text-gray-600 mt-2">Patients Rehabilitated</div>
+                <div class="w-12 h-1 gold-bg mx-auto mt-3"></div>
             </div>
-            <div class="stat-card p-4" data-aos="zoom-in" data-aos-delay="200">
-                <div class="text-3xl font-bold text-blue-800 counter" data-target="25">0+</div>
-                <div class="text-gray-600">Women Trained</div>
+            <div class="p-6" data-aos="zoom-in" data-aos-delay="200">
+                <div class="text-4xl font-bold text-slate-900 counter" data-target="25">0+</div>
+                <div class="text-gray-600 mt-2">Women Empowered</div>
+                <div class="w-12 h-1 gold-bg mx-auto mt-3"></div>
             </div>
-            <div class="stat-card p-4" data-aos="zoom-in" data-aos-delay="300">
-                <div class="text-3xl font-bold text-blue-800 counter" data-target="15">0+</div>
-                <div class="text-gray-600">Farmers Supported</div>
+            <div class="p-6" data-aos="zoom-in" data-aos-delay="300">
+                <div class="text-4xl font-bold text-slate-900 counter" data-target="15">0+</div>
+                <div class="text-gray-600 mt-2">Farmers Supported</div>
+                <div class="w-12 h-1 gold-bg mx-auto mt-3"></div>
             </div>
-            <div class="stat-card p-4" data-aos="zoom-in" data-aos-delay="400">
-                <div class="text-3xl font-bold text-blue-800 counter" data-target="12">0L+</div>
-                <div class="text-gray-600">Funds Utilized</div>
+            <div class="p-6" data-aos="zoom-in" data-aos-delay="400">
+                <div class="text-4xl font-bold text-slate-900 counter" data-target="12">0L+</div>
+                <div class="text-gray-600 mt-2">Funds Deployed</div>
+                <div class="w-12 h-1 gold-bg mx-auto mt-3"></div>
             </div>
         </div>
     </section>
 
     <!-- About -->
-    <section id="about" class="py-16 px-4 bg-gray-50">
-        <div class="max-w-6xl mx-auto">
-            <h3 class="text-3xl font-bold text-center text-blue-900 mb-12" data-aos="fade-up">About Dhanarjay Welfare Foundation</h3>
-            <div class="grid md:grid-cols-2 gap-8 items-center">
+    <section id="about" class="py-20 px-4 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="gold-text font-semibold">WHO WE ARE</span>
+                <h3 class="text-4xl font-bold text-slate-900 mt-2">A Mission Rooted in Compassion & Integrity</h3>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div data-aos="fade-right">
-                    <p class="text-lg mb-4">We are a dedicated Section 8 non-governmental organization committed to delivering compassionate rehabilitation and healthcare services to underserved populations in rural Bihar.</p>
-                    <p class="mb-6">Our work is rooted in integrity, care, and deep community service. Through our rehabilitation center, we provide critical physical and emotional recovery support to help individuals regain independence and dignity.</p>
-                    <div class="bg-blue-50 border-l-4 border-blue-800 p-4">
-                        <p class="font-semibold text-blue-900">Registered & Certified:</p>
-                        <p class="text-sm">Section 8 Company Act 2013 | 12AA & 80G Income Tax | DARPAN ID: BR/2025/0591108 | UDYAM-BR-25-0026586</p>
+                    <p class="text-lg mb-6 text-gray-700">Dhanarjay Welfare Foundation is a Section 8 Company dedicated to delivering compassionate rehabilitation and healthcare services to underserved populations in rural Bihar.</p>
+                    <p class="mb-8 text-gray-600">Through our rehabilitation center, we provide critical physical and emotional recovery support. Our focus extends to women empowerment, sustainable agriculture, and community education to ensure holistic development.</p>
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i><span>Govt. Registered</span></div>
+                        <div class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i><span>80G Tax Benefit</span></div>
+                        <div class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i><span>DARPAN Verified</span></div>
+                        <div class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i><span>100% Transparent</span></div>
                     </div>
+                    <a href="#contact" class="bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold btn-premium inline-block">Partner With Us</a>
                 </div>
-                <div class="grid grid-cols-2 gap-4">
-                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=300" class="rounded-lg shadow-md" alt="Healthcare" data-aos="flip-left" data-aos-delay="100">
-                    <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=300" class="rounded-lg shadow-md mt-8" alt="Women Empowerment" data-aos="flip-right" data-aos-delay="200">
+                <div class="relative" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600" class="rounded-2xl shadow-2xl" alt="About Us">
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl">
+                        <div class="text-3xl font-bold text-slate-900">2025</div>
+                        <div class="text-gray-600">Established</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Our Work -->
-    <section id="work" class="py-16 px-4">
-        <div class="max-w-6xl mx-auto">
-            <h3 class="text-3xl font-bold text-center text-blue-900 mb-12" data-aos="fade-up">Our Key Focus Areas</h3>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-blue-800 stat-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="text-blue-800 text-3xl mb-4"><i class="fas fa-hospital"></i></div>
-                    <h4 class="font-bold text-xl mb-2">Healthcare & Rehabilitation</h4>
-                    <p class="text-gray-600">Free medical camps, physiotherapy, occupational therapy for elderly & disabled in remote villages.</p>
+    <section id="work" class="py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="gold-text font-semibold">OUR PROGRAMS</span>
+                <h3 class="text-4xl font-bold text-slate-900 mt-2">Creating Sustainable Impact Across Bihar</h3>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 card-hover" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gold-bg text-slate-900 w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fas fa-hospital"></i></div>
+                    <h4 class="font-bold text-xl mb-3 text-slate-900">Healthcare & Rehab</h4>
+                    <p class="text-gray-600 mb-4">Free medical camps, physiotherapy, occupational therapy for elderly & disabled. ₹8L deployed.</p>
+                    <a href="#" class="gold-text font-semibold">Learn More →</a>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-pink-600 stat-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="text-pink-600 text-3xl mb-4"><i class="fas fa-female"></i></div>
-                    <h4 class="font-bold text-xl mb-2">Women Empowerment</h4>
-                    <p class="text-gray-600">Skill training in tailoring, digital literacy & entrepreneurship to make rural women self-reliant.</p>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 card-hover" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gold-bg text-slate-900 w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fas fa-female"></i></div>
+                    <h4 class="font-bold text-xl mb-3 text-slate-900">Women Empowerment</h4>
+                    <p class="text-gray-600 mb-4">Skill training in tailoring, digital literacy & entrepreneurship. 25 women trained with ₹3L fund.</p>
+                    <a href="#" class="gold-text font-semibold">Learn More →</a>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-600 stat-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="text-green-600 text-3xl mb-4"><i class="fas fa-seedling"></i></div>
-                    <h4 class="font-bold text-xl mb-2">Sustainable Agriculture</h4>
-                    <p class="text-gray-600">Supporting small farmers with training, seeds, tools & market access to increase yield & reduce debt.</p>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 card-hover" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gold-bg text-slate-900 w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fas fa-seedling"></i></div>
+                    <h4 class="font-bold text-xl mb-3 text-slate-900">Sustainable Agriculture</h4>
+                    <p class="text-gray-600 mb-4">Supporting 15 farmers with seeds, tools & training to increase yield and reduce debt.</p>
+                    <a href="#" class="gold-text font-semibold">Learn More →</a>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-yellow-600 stat-card" data-aos="fade-up" data-aos-delay="400">
-                    <div class="text-yellow-600 text-3xl mb-4"><i class="fas fa-chalkboard-teacher"></i></div>
-                    <h4 class="font-bold text-xl mb-2">Community Education</h4>
-                    <p class="text-gray-600">Awareness workshops on hygiene, legal rights, child safety, nutrition & digital inclusion.</p>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 card-hover" data-aos="fade-up" data-aos-delay="400">
+                    <div class="gold-bg text-slate-900 w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h4 class="font-bold text-xl mb-3 text-slate-900">Community Education</h4>
+                    <p class="text-gray-600 mb-4">Workshops on hygiene, legal rights, child safety, nutrition & digital inclusion.</p>
+                    <a href="#" class="gold-text font-semibold">Learn More →</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Impact & Funding -->
-    <section id="impact" class="py-16 px-4 bg-gray-50">
-        <div class="max-w-6xl mx-auto">
-            <h3 class="text-3xl font-bold text-center text-blue-900 mb-12" data-aos="fade-up">Transparency: Where Your Funds Go</h3>
-            <div class="grid md:grid-cols-2 gap-8 items-center">
+    <section id="impact" class="py-20 px-4 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="gold-text font-semibold">TRANSPARENCY & IMPACT</span>
+                <h3 class="text-4xl font-bold mt-2">Every Rupee Accounted For, Every Life Transformed</h3>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div data-aos="fade-right">
-                    <h4 class="font-bold text-xl mb-4">Funding Utilization Breakdown</h4>
-                    <div class="space-y-4">
+                    <h4 class="font-bold text-2xl mb-6">Funding Utilization FY 2025-26</h4>
+                    <div class="space-y-5">
                         <div>
-                            <div class="flex justify-between mb-1"><span>Healthcare Services</span><span>33.3%</span></div>
-                            <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-800 h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" style="width:33.3%"></div></div>
+                            <div class="flex justify-between mb-2"><span>Healthcare Services</span><span class="gold-text font-bold">33.3%</span></div>
+                            <div class="w-full bg-slate-700 rounded-full h-3"><div class="gold-bg h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" style="width:33.3%"></div></div>
                         </div>
                         <div>
-                            <div class="flex justify-between mb-1"><span>Emergency/Relief Aid</span><span>22.2%</span></div>
-                            <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-700 h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" data-aos-delay="100" style="width:22.2%"></div></div>
+                            <div class="flex justify-between mb-2"><span>Emergency/Relief Aid</span><span class="gold-text font-bold">22.2%</span></div>
+                            <div class="w-full bg-slate-700 rounded-full h-3"><div class="gold-bg h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" data-aos-delay="100" style="width:22.2%"></div></div>
                         </div>
                         <div>
-                            <div class="flex justify-between mb-1"><span>Agricultural Training</span><span>22.2%</span></div>
-                            <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-600 h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" data-aos-delay="200" style="width:22.2%"></div></div>
+                            <div class="flex justify-between mb-2"><span>Agricultural Training</span><span class="gold-text font-bold">22.2%</span></div>
+                            <div class="w-full bg-slate-700 rounded-full h-3"><div class="gold-bg h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" data-aos-delay="200" style="width:22.2%"></div></div>
                         </div>
                         <div>
-                            <div class="flex justify-between mb-1"><span>Women Empowerment</span><span>11.1%</span></div>
-                            <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" data-aos-delay="300" style="width:11.1%"></div></div>
+                            <div class="flex justify-between mb-2"><span>Women Empowerment</span><span class="gold-text font-bold">11.1%</span></div>
+                            <div class="w-full bg-slate-700 rounded-full h-3"><div class="gold-bg h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" data-aos-delay="300" style="width:11.1%"></div></div>
                         </div>
                         <div>
-                            <div class="flex justify-between mb-1"><span>Staff & Operational Costs</span><span>11.1%</span></div>
-                            <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-400 h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" data-aos-delay="400" style="width:11.1%"></div></div>
+                            <div class="flex justify-between mb-2"><span>Operational Costs</span><span class="gold-text font-bold">11.1%</span></div>
+                            <div class="w-full bg-slate-700 rounded-full h-3"><div class="gold-bg h-3 rounded-full" data-aos="slide-right" data-aos-duration="1500" data-aos-delay="400" style="width:11.1%"></div></div>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-lg" data-aos="fade-left">
-                    <h4 class="font-bold text-xl mb-4 text-blue-900">Contribution Outcome</h4>
-                    <div class="space-y-4">
+                <div class="bg-slate-800 p-8 rounded-2xl" data-aos="fade-left">
+                    <h4 class="font-bold text-2xl mb-6 gold-text">On-Ground Outcomes</h4>
+                    <div class="space-y-6">
                         <div class="flex items-start">
-                            <div class="bg-green-100 text-green-800 p-2 rounded-lg mr-3"><i class="fas fa-heartbeat"></i></div>
-                            <div><b>₹8,00,000 in Healthcare:</b> 10 patients fully rehabilitated with medical care & physiotherapy</div>
+                            <div class="gold-bg text-slate-900 p-3 rounded-lg mr-4"><i class="fas fa-heartbeat"></i></div>
+                            <div><b class="text-lg">₹8,00,000 Deployed in Healthcare</b><p class="text-gray-300">10 patients fully rehabilitated with medical care, physiotherapy & counseling</p></div>
                         </div>
                         <div class="flex items-start">
-                            <div class="bg-pink-100 text-pink-800 p-2 rounded-lg mr-3"><i class="fas fa-cut"></i></div>
-                            <div><b>₹3,00,000 in Women Empowerment:</b> 25 women trained in tailoring & agriculture</div>
+                            <div class="gold-bg text-slate-900 p-3 rounded-lg mr-4"><i class="fas fa-cut"></i></div>
+                            <div><b class="text-lg">₹3,00,000 for Women Empowerment</b><p class="text-gray-300">25 women trained in tailoring & organic farming, now earning ₹8,000/month</p></div>
                         </div>
                         <div class="flex items-start">
-                            <div class="bg-green-100 text-green-800 p-2 rounded-lg mr-3"><i class="fas fa-tractor"></i></div>
-                            <div><b>₹1,00,000 in Agriculture:</b> 15 farmers provided with seeds, tools & training</div>
+                            <div class="gold-bg text-slate-900 p-3 rounded-lg mr-4"><i class="fas fa-tractor"></i></div>
+                            <div><b class="text-lg">₹1,00,000 for Agriculture</b><p class="text-gray-300">15 farmers provided with high-yield seeds & tools, 40% income increase</p></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-20 px-4 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="gold-text font-semibold">OUR WORK IN ACTION</span>
+                <h3 class="text-4xl font-bold text-slate-900 mt-2">Glimpses from the Field</h3>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400" class="rounded-xl shadow-md card-hover" alt="Gallery 1" data-aos="zoom-in" data-aos-delay="100">
+                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400" class="rounded-xl shadow-md card-hover" alt="Gallery 2" data-aos="zoom-in" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400" class="rounded-xl shadow-md card-hover" alt="Gallery 3" data-aos="zoom-in" data-aos-delay="300">
+                <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=400" class="rounded-xl shadow-md card-hover" alt="Gallery 4" data-aos="zoom-in" data-aos-delay="400">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="gold-text font-semibold">TESTIMONIALS</span>
+                <h3 class="text-4xl font-bold text-slate-900 mt-2">Stories of Transformation</h3>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 card-hover" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-yellow-400 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="text-gray-600 mb-6">"Dhanarjay Foundation ne mere papa ka free ilaj karaya. Aaj wo chalne lage hain. Bhagwan ka roop hain ye log."</p>
+                    <div class="flex items-center">
+                        <img src="https://i.pravatar.cc/50?img=5" class="w-12 h-12 rounded-full mr-4">
+                        <div><b class="text-slate-900">Sunita Devi</b><p class="text-sm text-gray-500">Hisua, Nawada</p></div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 card-hover" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-yellow-400 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="text-gray-600 mb-6">"Silai training ke baad main ghar baithe ₹8000 kama leti hun. Mere bachhe ab school jaate hain. Dhanyavaad."</p>
+                    <div class="flex items-center">
+                        <img src="https://i.pravatar.cc/50?img=6" class="w-12 h-12 rounded-full mr-4">
+                        <div><b class="text-slate-900">Rekha Kumari</b><p class="text-sm text-gray-500">Beneficiary</p></div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 card-hover" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-yellow-400 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="text-gray-600 mb-6">"Foundation se beej aur training mili. Is saal fasl dugni hui. Karz se mukti mili hai."</p>
+                    <div class="flex items-center">
+                        <img src="https://i.pravatar.cc/50?img=7" class="w-12 h-12 rounded-full mr-4">
+                        <div><b class="text-slate-900">Ramesh Yadav</b><p class="text-sm text-gray-500">Farmer, Nawada</p></div>
                     </div>
                 </div>
             </div>
@@ -193,62 +283,93 @@
     </section>
 
     <!-- CTA Donate -->
-    <section class="hero-bg text-white py-16 px-4 text-center">
+    <section class="hero-bg text-white py-20 px-4 text-center">
         <div class="max-w-4xl mx-auto" data-aos="zoom-in">
-            <h3 class="text-3xl font-bold mb-4">Your Support Can Change Lives</h3>
-            <p class="text-xl mb-8 text-blue-100">Behind every number is a story of struggle - and with your help, a story of transformation.</p>
-            <a href="https://razorpay.me/@dhanarjay" class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-lg font-bold text-xl inline-block btn-hover pulse-animate"><i class="fas fa-donate mr-2"></i>Donate Now via UPI/Card</a>
-            <p class="text-sm mt-4 text-blue-200">Receive 80G tax exemption certificate instantly via email</p>
+            <h3 class="text-4xl font-bold mb-4">Be the Reason Someone Smiles Today</h3>
+            <p class="text-xl mb-8 text-blue-100">Your contribution of ₹500 can provide one week of physiotherapy to a disabled person. Donate now and claim 50% tax exemption under 80G.</p>
+            <a href="https://razorpay.me/@dhanarjay" class="gold-bg text-slate-900 px-10 py-5 rounded-lg font-bold text-xl inline-block btn-premium"><i class="fas fa-donate mr-2"></i>Donate Securely via Razorpay</a>
+            <p class="text-sm mt-6 text-blue-200">UPI | Net Banking | Credit/Debit Card Accepted | Instant 80G Receipt</p>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="py-20 px-4 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="gold-text font-semibold">OUR LEADERSHIP</span>
+                <h3 class="text-4xl font-bold text-slate-900 mt-2">Meet the Team</h3>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://i.pravatar.cc/200?img=12" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg">
+                    <h4 class="font-bold text-xl text-slate-900">Mr. Dhanarjay Kumar</h4>
+                    <p class="gold-text font-semibold">Founder & Director</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://i.pravatar.cc/200?img=13" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg">
+                    <h4 class="font-bold text-xl text-slate-900">Dr. Priya Sharma</h4>
+                    <p class="gold-text font-semibold">Chief Medical Officer</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://i.pravatar.cc/200?img=14" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg">
+                    <h4 class="font-bold text-xl text-slate-900">Mrs. Anita Devi</h4>
+                    <p class="gold-text font-semibold">Women Program Head</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Contact -->
-    <footer id="contact" class="bg-gray-900 text-gray-300 py-12 px-4">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8" data-aos="fade-up">
+    <footer id="contact" class="bg-slate-900 text-gray-300 py-16 px-4">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-4 gap-8" data-aos="fade-up">
+            <div class="lg:col-span-2">
+                <div class="flex items-center mb-4">
+                    <div class="gold-bg text-slate-900 p-3 rounded-xl mr-3"><i class="fas fa-hands-helping text-2xl"></i></div>
+                    <h4 class="text-white font-bold text-xl">Dhanarjay Welfare Foundation</h4>
+                </div>
+                <p class="text-sm mb-6">A Section 8 NGO committed to serving underserved populations in rural Bihar through healthcare, empowerment & sustainable development. Registered under Companies Act 2013.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="bg-slate-800 hover:bg-slate-700 w-10 h-10 rounded-lg flex items-center justify-center"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="bg-slate-800 hover:bg-slate-700 w-10 h-10 rounded-lg flex items-center justify-center"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="bg-slate-800 hover:bg-slate-700 w-10 h-10 rounded-lg flex items-center justify-center"><i class="fab fa-instagram"></i></a>
+                </div>
             <div>
-                <h4 class="text-white font-bold text-lg mb-4">Dhanarjay Welfare Foundation</h4>
-                <p class="text-sm">A Section 8 NGO committed to serving underserved populations in rural Bihar through healthcare, empowerment & sustainable development.</p>
+                <h4 class="text-white font-bold text-lg mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#about" class="hover:text-white">About Us</a></li>
+                    <li><a href="#work" class="hover:text-white">Our Programs</a></li>
+                    <li><a href="#impact" class="hover:text-white">Impact Report</a></li>
+                    <li><a href="#" class="hover:text-white">Annual Report</a></li>
+                    <li><a href="#" class="hover:text-white">80G Certificate</a></li>
+                </ul>
             </div>
             <div>
                 <h4 class="text-white font-bold text-lg mb-4">Contact Info</h4>
-                <p class="text-sm mb-2"><i class="fas fa-map-marker-alt mr-2"></i>Ward No. 22, Hisua, Nawada, Bihar 805103</p>
-                <p class="text-sm mb-2"><i class="fas fa-phone mr-2"></i>7479615382, 8757579857</p>
-                <p class="text-sm"><i class="fas fa-envelope mr-2"></i>dhanarjayfoundation@gmail.com</p>
+                <p class="text-sm mb-3"><i class="fas fa-map-marker-alt mr-2 gold-text"></i>Ward No. 22, Hisua, Nawada, Bihar 805103</p>
+                <p class="text-sm mb-3"><i class="fas fa-phone mr-2 gold-text"></i>7479615382, 8757579857</p>
+                <p class="text-sm mb-3"><i class="fas fa-envelope mr-2 gold-text"></i>dhanarjayfoundation@gmail.com</p>
+                <p class="text-xs mt-4">CIN: U88900BR2025NPL074863<br>DARPAN: BR/2025/0591108</p>
             </div>
-            <div>
-                <h4 class="text-white font-bold text-lg mb-4">Legal Status</h4>
-                <p class="text-xs">CIN: U88900BR2025NPL074863</p>
-                <p class="text-xs">12AA & 80G Registered</p>
-                <p class="text-xs">DARPAN ID: BR/2025/0591108</p>
-                <p class="text-xs">UDYAM: UDYAM-BR-25-0026586</p>
-            </div>
-        </div>
-        <div class="max-w-6xl mx-auto mt-8 pt-8 border-t border-gray-800 text-center text-sm">
-            <p>&copy; 2026 Dhanarjay Welfare Foundation. All Rights Reserved.</p>
-            <p class="mt-2 text-xs text-gray-500">Designed & Developed with ❤️ by <b>MMN Digital</b> | Contact: mmndigital.in</p>
+        <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-800 text-center text-sm">
+            <p>&copy; 2026 Dhanarjay Welfare Foundation. All Rights Reserved. | 12AA & 80G Certified</p>
+            <p class="mt-3 text-xs text-gray-500">Designed & Developed with ❤️ by <b class="gold-text">MMN Digital</b> | For website development: mmndigital.in</p>
         </div>
     </footer>
 
-    <!-- AOS Script -->
+    <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        // Initialize AOS Animation
-        AOS.init({
-            duration: 800,
-            once: true
-        });
-
+        AOS.init({duration: 800, once: true, offset: 100});
+        
         // Counter Animation
         const counters = document.querySelectorAll('.counter');
         const speed = 200;
-        
         const animateCounter = () => {
             counters.forEach(counter => {
                 const updateCount = () => {
                     const target = +counter.getAttribute('data-target');
                     const count = +counter.innerText.replace('+', '').replace('L', '');
                     const inc = target / speed;
-                    
                     if(count < target) {
                         counter.innerText = Math.ceil(count + inc) + (counter.innerText.includes('L') ? 'L+' : '+');
                         setTimeout(updateCount, 20);
@@ -259,14 +380,9 @@
                 updateCount();
             });
         };
-
-        // Trigger counter when visible
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if(entry.isIntersecting) {
-                    animateCounter();
-                    observer.unobserve(entry.target);
-                }
+                if(entry.isIntersecting) {animateCounter(); observer.unobserve(entry.target);}
             });
         });
         document.querySelectorAll('.counter').forEach(counter => observer.observe(counter));
